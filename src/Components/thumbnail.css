@@ -1,0 +1,61 @@
+
+.thumbnail {
+    background-color: black;
+    display: inline-block;
+    margin-top: 1%;
+    margin-right: 1%;
+    width: 10em;
+    height: 15em;
+    position: relative;
+    color: gray;
+}
+
+.moviePoster {
+    position: absolute;
+    width:100%;
+    left:0px;
+}
+
+.onTopOfPoster {
+    position: absolute;
+    background-color: lightyellow;
+    margin:0px;
+    padding:0px;
+}
+
+.votingImg {
+    /* position: absolute; */
+    background: url("../img/votingStar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:1em;
+    /* padding:0.2em; */
+}
+
+.voting {
+    /* position: absolute; */
+    display:flex;
+}
+
+.movieYear, .movieVoting
+{
+    margin: 3px;
+    border-radius: 3px;
+    padding: 2px;    
+}
+
+.movieVoting {
+    right: 0px;
+    display: flex;
+}
+
+.movieYear {
+    left:0px;
+}
+
+.movieTitle {
+    bottom: 0px;
+    width:100%;
+}
+
